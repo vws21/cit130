@@ -27,10 +27,10 @@ public class PasswordClient {
         System.out.println("requirements:");
         System.out.println("1. min length of " + checker.getMinLength() + " characters");
         System.out.println("2. max length of " + checker.getMaxLength() + " characters");
-        System.out.println("3. contains at least 1 special character: $%^&*@#!");
-        System.out.println("4. contains at least 1 digit");
-        System.out.println("5. contains at least 1 lowercase and 1 capital letter");
-        System.out.println("6. contains no spaces");
+        System.out.println("3. at least 1 special character: $%^&*@#!");
+        System.out.println("4. at least 1 digit");
+        System.out.println("5. at least 1 lowercase and 1 capital letter");
+        System.out.println("6. no spaces");
         
         while(fail){
             System.out.println("\nenter password: ");
